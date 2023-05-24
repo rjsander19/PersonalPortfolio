@@ -53,29 +53,6 @@
 
 /* Header */
 .header {
-  @include white-text-black-bg;
   display: flex;
   justify-content: space-between;
-
-
-  a {
-    @include white-text-black-bg;
-    div {
-      margin: 10px;
-      font-size: large;
-    }
-  }
-  ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    li {
-      margin-right: 1.2rem;
-      cursor: pointer;
-      font-weight: 700;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
 }

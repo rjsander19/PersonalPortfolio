@@ -7,14 +7,14 @@ import Landing from "../pages/Landing";
 
 function Main(props) {
     const [ projects, setProjects ] = useState(null)
-    const URL = "http://localhost:4000/"
+    const URL = "http://localhost:4000/projects"
 
 
-    const getProjects = async () => {
+  const getProjects = async () => {
     const response = await fetch(URL);
     const data = await response.json();
-    setProjects(data);
-    };
+    setProjects(data || []);
+  };
 
   const createProjects = async (project) => {
     await fetch(URL, {

@@ -26,6 +26,9 @@ const handleSubmit = (event) => {
 
 
 const loaded = () => {
+  if (!Array.isArray(props.projects)) {
+    return <h1>No projects available</h1>;
+  }
     return props.projects.map((project) => (
         <div className="grid-container">
             <div key={project._id} className="projects">
