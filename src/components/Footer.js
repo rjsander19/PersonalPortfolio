@@ -1,16 +1,16 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const Header = (props) => {
+const Footer = (props) => {
     return (
-        <div className="header">
+        <div className="footer">
             <Link to="/projects">
                 <div>
-                    <p>Header</p>
+                    <p>Footer</p>
                 </div>
             </Link>
         </div>
     )
 }
 
-export default Header
+export default Footer;
