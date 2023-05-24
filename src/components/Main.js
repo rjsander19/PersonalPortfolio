@@ -61,7 +61,7 @@ useEffect(() => getProjects, []);
         </Routes>
         </main>
     );
-}
+};
 
 
 export default Main;

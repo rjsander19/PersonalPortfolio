@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import '../Show.css';
 
 const Show = (props) => {
   const { id } = useParams()
