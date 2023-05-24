@@ -71,7 +71,7 @@ const handleCommentSubmit = (e) => {
 
   
   const loaded = () => {
-    const subjectComments = comments.filter(
+    const projectComments = comments.filter(
       (comment) => comment.projectId === project._id
     );
     return (
@@ -96,7 +96,7 @@ const handleCommentSubmit = (e) => {
             <h3>Comments</h3>
             <div className="comment-box">
             <div className="comment-list">
-            {subjectComments.map((comment, index) => (
+            {projectComments.map((comment, index) => (
               <p key={index}>{comment.comment}</p>
             ))}
             </div>
@@ -152,9 +152,9 @@ const handleCommentSubmit = (e) => {
         />
         <input
           type="text"
-          value={editForm.technologies}
-          name="technologies"
-          placeholder="technologies"
+          value={editForm.technology}
+          name="technology"
+          placeholder="technology"
           onChange={handleChange}
         />
         <input type="submit" value="Update Project" />

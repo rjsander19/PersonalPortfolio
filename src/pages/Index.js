@@ -6,7 +6,7 @@ const Index = (props) => {
         name:"",
         image:"",
         description: "",
-        Technologies: ""
+        technology: ""
     })
 
 const handleChange = (event) => {
@@ -20,7 +20,7 @@ const handleSubmit = (event) => {
         name:"",
         image:"",
         description: "",
-        Technologies: ""
+        technology: ""
     })
 };
 
@@ -75,10 +75,10 @@ return (
         />
         <input
           type="text"
-          value={newForm.technologies}
-          name="technologies"
-          placeholder="Technologies"
-          className="formTechnologies"
+          value={newForm.technology}
+          name="technology"
+          placeholder="Technology"
+          className="formTechnology"
           onChange={handleChange}
         />
         <input type="submit" value="Create Project" />
@@ -86,7 +86,7 @@ return (
       {props.projects ? loaded() : loading()}
     </section>
   )
-}
+};
 
 export default Index;
 
