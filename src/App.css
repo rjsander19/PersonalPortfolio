@@ -1,3 +1,62 @@
+/* Application CSS below */
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  border-top:2px solid red;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 14px;
+ }
+
+h2 {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* React styling below */
 .App {
   text-align: center;
@@ -41,18 +100,3 @@
 
 
 
-
-
-/* Application CSS below */
-
-/* Footer */
-.footer {
-  display: flex;
-  font-size: 30px;
-}
-
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-}

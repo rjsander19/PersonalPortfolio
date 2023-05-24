@@ -6,11 +6,11 @@ const Header = (props) => {
         <div className="header">
             <Link to="/projects">
                 <div>
-                    <p>Header</p>
+                    <p>Project Portfolio</p>
                 </div>
             </Link>
         </div>
     )
-}
+};
 
-export default Header
+export default Header;
