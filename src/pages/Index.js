@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, {useState} from "react";
+import '../index.css'
 
 const Index = (props) => {
     const [newForm, setNewForm] = useState({
@@ -24,6 +25,14 @@ const handleSubmit = (event) => {
     })
 };
 
+const renderDescription = (project) => {
+    return (
+      <div className="project-description">
+        <h3>{project.description}</h3>
+      </div>
+    );
+  };
+
 
 const loaded = () => {
   if (!Array.isArray(props.projects)) {
@@ -33,9 +42,10 @@ const loaded = () => {
         <div className="grid-container">
             <div key={project._id} className="projects">
                 <Link to={`/projects/${project._id}`}>
-                    <h1>{project.name}</h1>
+                    <h1 className="name">{project.name}</h1>
                     <img src={project.image} alt={project.name} />
-                    <h3>{project.description}</h3>
+                    
+                  {renderDescription(project)} 
                 </Link>
             </div>
         </div>
