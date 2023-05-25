@@ -70,6 +70,7 @@ const handleCommentSubmit = (e) => {
   }
 };
 
+
   
   const loaded = () => {
     const projectComments = comments.filter(
@@ -78,40 +79,72 @@ const handleCommentSubmit = (e) => {
     return (
       <>
       <div className="show-container">
-      <div className="card-row">
-      <div class="card2">
-        <h1>{project.name}</h1>
-        <img 
-          className="avatar-image" 
-          src={project.image} 
-          alt={project.name} 
-        />
-        <button onClick={handleDelete}>Delete</button>
-        <button onClick={handleEdit}>{ isEditing ? 'Cancel Edit' : 'Edit' }</button>
+        <div className="card-row">
+          <div className="toprow">
+
+            <div class="card2">
+                <h1>{project.name}</h1>
+                <img 
+                    className="avatar-image" 
+                    src={project.image} 
+                    alt={project.name} 
+                    />
+            </div>
+
+            <div className="card7">
+                <h3>Technologies used for this project:</h3>
+                    {project.technology}
+            </div>
+          </div>
+
+          <div className="links">
+            <div className="card4">
+                <h3>Link to this project's live site:</h3>
+                {project.website}
+            </div>
+
+            <div className="card5">
+                <h3>Link to code for this project:</h3>
+                {project.codes}
+            </div>
+          </div>
+
+
+          <div className="card1">
+            <h3>Description: </h3>
+              {project.description}
+          </div>
+
+          <div className="card6">
+            <h3>My thoughts on this project:</h3>
+              {project.process}
+          </div>
       </div>
-      <div className="card1">
-        <h3>Description: {project.description}</h3>
-      </div>
-      </div>
-      <div className="card3">
+
+          <div className="card3">
             <h3>Comments</h3>
-            <div className="comment-box">
-            <div className="comment-list">
-            {projectComments.map((comment, index) => (
-              <p key={index}>{comment.comment}</p>
-            ))}
-            </div>
-            </div>
-            <form onSubmit={handleCommentSubmit}>
-              <input
+              <div className="comment-box">
+              <div className="comment-list">
+                {projectComments.map((comment, index) => (
+                <p key={index}>{comment.comment}</p>
+                ))}
+              </div>
+              </div>
+
+          <form onSubmit={handleCommentSubmit}>
+            <input
                 type="text"
                 value={editForm.post}
                 name="post"
                 placeholder="Add a comment"
                 onChange={handleChange}
-              />
-              <input type="submit" value="Add Comment" />
-            </form>
+                />
+            <input type="submit" value="Add Comment" />
+          </form>
+
+        <button onClick={handleDelete} className="deletebtn">Delete</button>
+        <button onClick={handleEdit} className="editbtn"> { isEditing ? 'Cancel Edit' : 'Edit' }</button>
+
           </div>
         </div>
       </>
@@ -156,6 +189,27 @@ const handleCommentSubmit = (e) => {
           value={editForm.technology}
           name="technology"
           placeholder="technology"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={editForm.website}
+          name="website"
+          placeholder="website"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={editForm.codes}
+          name="codes"
+          placeholder="codes"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={editForm.process}
+          name="process"
+          placeholder="process"
           onChange={handleChange}
         />
         <input type="submit" value="Update Project" />

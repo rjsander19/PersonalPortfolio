@@ -4,10 +4,13 @@ import '../index.css'
 
 const Index = (props) => {
     const [newForm, setNewForm] = useState({
-        name:"",
-        image:"",
+        name: "",
+        image: "",
         description: "",
-        technology: ""
+        technology: "",
+        website: "",
+        codes: "",
+        process: "",
     })
 
 const handleChange = (event) => {
@@ -18,10 +21,13 @@ const handleSubmit = (event) => {
     event.preventDefault();
     props.createProjects(newForm);
     setNewForm({
-        name:"",
+        name: "",
         image:"",
         description: "",
-        technology: ""
+        technology: "",
+        website: "",
+        codes: "",
+        process: "",
     })
 };
 
@@ -89,6 +95,30 @@ return (
           name="technology"
           placeholder="Technology"
           className="formTechnology"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={newForm.website}
+          name="website"
+          placeholder="Website"
+          className="website"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={newForm.codes}
+          name="codes"
+          placeholder="Code"
+          className="codes"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          value={newForm.process}
+          name="process"
+          placeholder="process"
+          className="process"
           onChange={handleChange}
         />
         <input type="submit" value="Create Project" />

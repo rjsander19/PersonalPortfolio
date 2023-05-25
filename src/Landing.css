@@ -1,0 +1,17 @@
+.pic {
+    height: 72%;
+    width: 72%;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}

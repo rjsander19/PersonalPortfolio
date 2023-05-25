@@ -1,3 +1,76 @@
+/* Project name */
 h1 {
     font-size: 48px;
+}
+
+
+/* Card1 css description */
+.card1 {
+    background-color: purple;
+}
+
+
+/* Buttons */
+.deletebtn {
+    text-align: center;
+    height: 100px;
+}
+
+.editbtn {
+    align-items: center;
+    height: 100px;
+}
+
+.toprow {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* Card2 css name and logo picture */
+.card2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aquamarine;
+    margin-left: 20%;
+    width: 60%;
+    padding-bottom: 8px;
+}
+
+.avatar-image {
+    position: relative;
+    margin-left: 16%;
+    height: 70%;
+    width: 70%;
+}
+
+
+/* Card7 css technology used for project */
+.card7 {
+    margin-left: 6px;
+    width: 20%;
+    background-color: blanchedalmond;
+}
+
+
+/* Card4 css link to projects live website */
+.card4 {
+    background-color: cadetblue;
+}
+
+/* Card5 css link to projects code */
+.card5 {
+    background-color: darkgoldenrod;
+}
+
+/* Card6 css process thoughts on project */
+.card6 {
+    background-color: darkkhaki;
 }
