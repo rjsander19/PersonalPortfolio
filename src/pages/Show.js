@@ -113,12 +113,12 @@ const handleCommentSubmit = (e) => {
       <div className="links">
             <div className="card4">
                 <h3>Link to this project's live site:</h3>
-                {project.website}
+                <a href={project.website} target="_blank" rel="noopener noreferrer">{project.website}</a>
             </div>
 
             <div className="card5">
                 <h3>Link to code for this project:</h3>
-                {project.codes}
+                <a href={project.codes} target="_blank" rel="noopener noreferrer">{project.codes}</a>
             </div>
           </div>
 
