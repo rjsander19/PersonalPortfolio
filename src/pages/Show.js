@@ -97,17 +97,7 @@ const handleCommentSubmit = (e) => {
             </div>
           </div>
 
-          <div className="links">
-            <div className="card4">
-                <h3>Link to this project's live site:</h3>
-                {project.website}
-            </div>
 
-            <div className="card5">
-                <h3>Link to code for this project:</h3>
-                {project.codes}
-            </div>
-          </div>
 
 
           <div className="card1">
@@ -120,6 +110,17 @@ const handleCommentSubmit = (e) => {
               {project.process}
           </div>
       </div>
+      <div className="links">
+            <div className="card4">
+                <h3>Link to this project's live site:</h3>
+                {project.website}
+            </div>
+
+            <div className="card5">
+                <h3>Link to code for this project:</h3>
+                {project.codes}
+            </div>
+          </div>
 
           <div className="card3">
             <h3>Comments</h3>
