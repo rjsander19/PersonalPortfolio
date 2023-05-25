@@ -82,6 +82,11 @@ const handleCommentSubmit = (e) => {
         <div className="card-row">
           <div className="toprow">
 
+          <div className="card1">
+            <h3>Description: </h3>
+              {project.description}
+          </div>
+
             <div class="card2">
                 <h1>{project.name}</h1>
                 <img 
@@ -95,15 +100,10 @@ const handleCommentSubmit = (e) => {
                 <h3>Technologies used for this project:</h3>
                     {project.technology}
             </div>
-          </div>
+          
 
 
-
-
-          <div className="card1">
-            <h3>Description: </h3>
-              {project.description}
-          </div>
+        </div>
 
           <div className="card6">
             <h3>My thoughts on this project:</h3>
