@@ -44,7 +44,7 @@ function Main(props) {
 };
 
 
-useEffect(() => getProjects, []);
+useEffect(() => getProjects(), []);
 
     return (
         <main>
