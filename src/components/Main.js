@@ -8,7 +8,7 @@ import Landing from "../pages/Landing";
 function Main(props) {
     const [ projects, setProjects ] = useState(null)
     // const URL = "http://localhost:4000/projects"
-    const URL = "https://backendpersonalportfolio.onrender.com"
+    const URL = "https://backendpersonalportfolio.onrender.com/projects"
 
 
   const getProjects = async () => {
