@@ -37,6 +37,14 @@ const Show = (props) => {
     };
   }, []);
 
+  const goToPrevious = () => {
+    setCurrentImage((prevImage) => (prevImage > 0 ? prevImage - 1 : LearnLinkImg.length - 1));
+  };
+  
+  const goToNext = () => {
+    setCurrentImage((prevImage) => (prevImage < LearnLinkImg.length - 1 ? prevImage + 1 : 0));
+  };
+
   useEffect(() => {
     const storedComments = localStorage.getItem('comments');
     if (storedComments) {
@@ -101,12 +109,26 @@ const handleCommentSubmit = (e) => {
               {project.description}
           </div>
 
-          <div class="card2">
-              <h1>{project.name}</h1>
-              <a href={project.image} data-lightbox="image-gallery" data-title={project.name}>
-                <img className="avatar-image" src={project.image} alt={project.name} />
-              </a>
-            </div>
+          <div className="card2">
+        <h1>{project.name}</h1>
+        <div className="gallery">
+          <a
+            href={LearnLinkImg[currentImage]}
+            data-lightbox="image-gallery"
+            data-title={project.name}
+          >
+            <img
+              className="avatar-image"
+              src={LearnLinkImg[currentImage]}
+              alt={project.name}
+            />
+          </a>
+          <div className="gallery-navigation">
+            <button onClick={goToPrevious}>&lt;</button>
+            <button onClick={goToNext}>&gt;</button>
+          </div>
+        </div>
+      </div>
 
             <div className="card7">
                 <h3>Technologies used for this project: TESTING TESTING TESTING</h3>

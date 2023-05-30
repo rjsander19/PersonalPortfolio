@@ -5,3 +5,4 @@ const LearnLinkImg = [
 'https://i.ibb.co/KxnJhv0/Screen-Shot-2023-05-22-at-9-57-00-PM.png',
 ];
 
+// export default media
