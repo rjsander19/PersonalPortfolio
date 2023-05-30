@@ -109,7 +109,7 @@ const handleCommentSubmit = (e) => {
             </div>
 
             <div className="card7">
-                <h3>Technologies used for this project:</h3>
+                <h3>Technologies used for this project: TESTING TESTING TESTING</h3>
                     {project.technology}
             </div>
           
