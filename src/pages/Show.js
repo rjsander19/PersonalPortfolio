@@ -104,6 +104,9 @@ const Show = (props) => {
       };
     }, []);
 
+
+  const LoadedContent = () => {
+
     return (
       <>
         <div className="show-container">
@@ -173,7 +176,7 @@ const Show = (props) => {
       </>
     );
   };
-
+  }
   const loading = () => {
     return <h1>Loading ...</h1>;
   };
