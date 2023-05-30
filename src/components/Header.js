@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "../Header.css"
 
 const Header = (props) => {
     return (
@@ -9,11 +10,11 @@ const Header = (props) => {
             </Link>
 
             <Link to="/projects">
-                <div>Portfolio</div>
+                <div className="portfoliolink">Portfolio</div>
             </Link>
 
             <Link to="/resume">
-                <div>Professional History</div>
+                <div className="resumelink">Professional History</div>
             </Link>
 
         </div>
