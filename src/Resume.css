@@ -18,6 +18,7 @@
     text-align: center;
     padding: 50px;
     background-color: aquamarine;
+    border-radius: 50%;
   }
   
   .card1:hover:hover {
@@ -47,6 +48,7 @@
     text-align: center;
     padding: 50px;
     background-color: aquamarine;
+    border-radius: 50%;
   }
 
   .card4 {
@@ -59,6 +61,7 @@
     text-align: center;
     padding: 50px;
     background-color: aquamarine;
+    border-radius: 50%;
   }
 
   .card5 {
@@ -71,4 +74,5 @@
     text-align: center;
     padding: 50px;
     background-color: aquamarine;
+    border-radius: 50%;
   }
