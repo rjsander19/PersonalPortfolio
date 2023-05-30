@@ -15,7 +15,7 @@ const Footer = (props) => {
                 </div>
             </Link>
                 <div className="Email">
-                    <p><img src="https://i.ibb.co/L0VQrWr/Screen-Shot-2023-05-30-at-2-41-49-PM.png" alt="emailicon" className="emailicon"/> rjsander19@gmail.com</p>
+                    <p><img src="https://i.ibb.co/L0VQrWr/Screen-Shot-2023-05-30-at-2-41-49-PM.png" alt="emailicon" className="emailicon"/> rjsander19@gmail.com  </p>
                 </div>
         </footer>
     )
