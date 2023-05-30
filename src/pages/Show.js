@@ -22,6 +22,13 @@ const Show = (props) => {
 
   const [currentImage, setCurrentImage] = useState(0);
 
+  useEffect(() => {
+    if (project) {
+      setEditForm(project);
+    }
+  }, [project]);
+
+//Photobox 
   const goToPrevious = () => {
     if (currentImage > 0) {
       setCurrentImage(currentImage - 1);
@@ -34,22 +41,6 @@ const Show = (props) => {
     }
   };
 
-  useEffect(() => {
-    if (project) {
-      setEditForm(project);
-    }
-  }, [project]);
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js';
-    script.async = true;
-    document.body.appendChild(script);
-  
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
 
   useEffect(() => {
@@ -105,6 +96,31 @@ const handleCommentSubmit = (e) => {
     const projectComments = comments.filter(
       (comment) => comment.projectId === project._id
     );
+
+
+    useEffect(() => {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js';
+      script.async = true;
+  
+      const handleScriptLoad = () => {
+        window.lightbox.option({
+          resizeDuration: 200,
+          wrapAround: true,
+        });
+      };
+  
+      script.addEventListener('load', handleScriptLoad);
+  
+      document.body.appendChild(script);
+  
+      return () => {
+        script.removeEventListener('load', handleScriptLoad);
+        document.body.removeChild(script);
+      };
+    }, []);
+
+
     return (
       <>
       <div className="show-container">
