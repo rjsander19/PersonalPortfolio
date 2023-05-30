@@ -80,9 +80,7 @@ const Show = (props) => {
   };
 
   const LoadedContent = () => {
-    const projectComments = comments.filter(
-      (comment) => comment.projectId === project._id
-    );
+
 
     useEffect(() => {
       const script = document.createElement('script');
