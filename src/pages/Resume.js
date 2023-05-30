@@ -5,11 +5,12 @@ import {Link} from "react-router-dom";
 const Resume = (props) => {
     return(
 <>
-<h1>Resume page</h1>
+<Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing">View resume</Link>
 
 <Link to="/projects">
   <div className="h2">View Project Portfolio</div>
 </Link>
+
 
 
 </>

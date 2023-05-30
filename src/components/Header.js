@@ -10,11 +10,11 @@ const Header = (props) => {
             </Link>
 
             <Link to="/projects">
-                <div className="portfoliolink">Portfolio</div>
+                <div className="portfoliolink">View Portfolio</div>
             </Link>
 
             <Link to="/resume">
-                <div className="resumelink">Professional History</div>
+                <div className="resumelink">View Professional History</div>
             </Link>
 
         </div>
