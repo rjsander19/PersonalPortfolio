@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import '../Show.css';
 import 'lightbox2/dist/css/lightbox.min.css';
 import 'lightbox2/dist/js/lightbox.min.js';
-import { LearnLinkImg } from '../media.js';
+import LearnLinkImg from '../media.js';
 
 const Show = (props) => {
   const { id } = useParams()
@@ -22,17 +22,17 @@ const Show = (props) => {
 
   const [currentImage, setCurrentImage] = useState(0);
 
-  // const goToPrevious = () => {
-  //   if (currentImage > 0) {
-  //     setCurrentImage(currentImage - 1);
-  //   }
-  // };
+  const goToPrevious = () => {
+    if (currentImage > 0) {
+      setCurrentImage(currentImage - 1);
+    }
+  };
 
-  // const goToNext = () => {
-  //   if (currentImage < LearnLinkImg.length - 1) {
-  //     setCurrentImage(currentImage + 1);
-  //   }
-  // };
+  const goToNext = () => {
+    if (currentImage < LearnLinkImg.length - 1) {
+      setCurrentImage(currentImage + 1);
+    }
+  };
 
   useEffect(() => {
     if (project) {
