@@ -110,25 +110,20 @@ const handleCommentSubmit = (e) => {
             <h3>Description: </h3>
               {project.description}
           </div>
-
           <div className="card2">
         <h1>{project.name}</h1>
         <div className="gallery">
-          <a
-            href={LearnLinkImg[currentImage]}
-            data-lightbox="image-gallery"
-            data-title={project.name}
-          >
-            <img
-              className="avatar-image"
-              src={LearnLinkImg[currentImage]}
-              alt={project.name}
-            />
-          </a>
-          <div className="gallery-navigation">
-            <button onClick={goToPrevious}>&lt;</button>
-            <button onClick={goToNext}>&gt;</button>
-          </div>
+          {LearnLinkImg.map((image, index) => (
+            <a
+              key={index}
+              href={image}
+              data-lightbox="image-gallery"
+              data-title={project.name}
+              onClick={() => setCurrentImage(index)}
+            >
+              <img className="avatar-image" src={image} alt={project.name} />
+            </a>
+          ))}
         </div>
       </div>
 
