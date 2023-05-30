@@ -11,7 +11,7 @@ const Footer = (props) => {
             </Link>
             <Link to="https://github.com/rjsander19">
                 <div className="Github">
-                    <p><strong>Link to github:</strong> https://github.com/rjsander19</p>
+                    <p><img src="https://i.ibb.co/2tpdBR4/Screen-Shot-2023-05-30-at-2-31-59-PM.png"/>https://github.com/rjsander19</p>
                 </div>
             </Link>
                 <div className="Email">
