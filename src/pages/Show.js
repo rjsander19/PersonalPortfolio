@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
 import '../Show.css';
 
 
@@ -10,8 +9,6 @@ const Show = (props) => {
   console.log(id);
   
   const project = projects ? projects.find((p) => p._id === id ) : null
-
-
 
   const loaded = () => {
     return (
@@ -38,9 +35,6 @@ const Show = (props) => {
                 <h3>Technologies used for this project:</h3>
                     {project.technology}
             </div>
-          
-
-
         </div>
 
           <div className="card6">
@@ -48,6 +42,7 @@ const Show = (props) => {
               {project.process}
           </div>
       </div>
+      
       <div className="links">
             <div className="card4">
                 <h3>Link to this project's live site:</h3>
