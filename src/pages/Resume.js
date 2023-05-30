@@ -14,6 +14,34 @@ const Resume = (props) => {
                 </p>
             </div>
         </div>
+        <div className="secondrow">
+            <div className="card2">
+                <p>
+                    CARD2CARD2CARD2
+                </p>
+            </div>
+        </div>
+        <div className="thirdrow">
+            <div className="card3">
+                <p>
+                    CARD3CARD3CARD3
+                </p>
+            </div>
+        </div>
+        <div className="fourthrow">
+            <div className="card4">
+                <p>
+                    CARD4CARD4CARD4
+                </p>
+            </div>
+        </div>
+        <div className="fifthrow">
+            <div className="card5">
+                <p>
+                    CARD5CARD5CARD5
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
