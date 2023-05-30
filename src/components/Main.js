@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
 import Landing from "../pages/Landing";
+import Resume from "../pages/Resume";
 
 
 function Main(props) {
@@ -51,6 +52,8 @@ useEffect(() => getProjects(), []);
         <Routes>
 
             <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
+
+            <Route exact path="/resume" element={<Resume projects={projects} createProjects={createProjects}/>} />
 
             <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects}/>} />
 
