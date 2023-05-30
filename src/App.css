@@ -27,8 +27,13 @@
  }
 
  .githublogo {
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
+ }
+
+ .linkedinlogo {
+  height: 23px;
+  width: 23px;
  }
 
 h2 {
