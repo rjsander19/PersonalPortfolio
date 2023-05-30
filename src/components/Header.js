@@ -5,7 +5,7 @@ import "../Header.css"
 const Header = (props) => {
     return (
         <div className="header">
-            <Link to="/projects">
+            <Link to="/">
                 <div><img src="https://i.ibb.co/SPNyfjs/Roxanne-logo-light.png" id="logo" alt="logo"></img></div>
             </Link>
 

@@ -8,7 +8,7 @@ const Resume = (props) => {
 <h1>Resume page</h1>
 
 <Link to="/projects">
-  <div className="h2"><strong>View Project Portfolio</strong></div>
+  <div className="h2">View Project Portfolio</div>
 </Link>
 
 
