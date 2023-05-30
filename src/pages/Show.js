@@ -1,6 +1,7 @@
 import React from 'react';
-import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import '../Show.css';
 import LearnLinkImg from '../media.js';
 import CommentList from '../components/CommentList'; // Import the CommentList component
 
