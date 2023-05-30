@@ -153,9 +153,7 @@ const Show = (props) => {
           </div>
           <div className="card3">
             <h3>Comments</h3>
-            <div className="comment-box">
-              <CommentList comments={projectComments} />
-            </div>
+
             <form onSubmit={handleCommentSubmit}>
               <input
                 type="text"
