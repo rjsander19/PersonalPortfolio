@@ -28,7 +28,7 @@
   
   .card2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
     height: 200px;
     width: 200px;
@@ -54,7 +54,7 @@
 
   .card4 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
     height: 200px;
     width: 200px;
@@ -76,4 +76,14 @@
     padding: 50px;
     background-color: aquamarine;
     border-radius: 50%;
+  }
+
+  .secondrow {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .fouthrow {
+    display: flex;
+    flex-direction: row-reverse;
   }
