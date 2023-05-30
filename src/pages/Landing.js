@@ -9,7 +9,7 @@ const Landing = (props) => {
 <p>Thank you so much for visiting my portfolio website. Please feel free to visit the links to my LinkedIn and Github profiles, which are displayed at the bottom of the page. Otherwise, any inquiries can be sent to me directly via email at rjsander19@gmail.com</p>
 
 <Link to="/projects">
-  <div className="h2">View Project Portfolio</div>
+  <div className="h2"><strong>View Project Portfolio</strong></div>
 </Link>
 
 <div className="aboutme">
