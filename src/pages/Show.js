@@ -20,7 +20,7 @@ const Show = (props) => {
 
   const [comments, setComments] = useState([]);
 
-  const [currentImage, setCurrentImage] = useState(0); 
+
 
   useEffect(() => {
     if (project) {
