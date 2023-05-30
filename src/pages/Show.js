@@ -2,7 +2,9 @@ import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import '../Show.css';
-
+import 'lightbox2/dist/css/lightbox.min.css';
+import 'lightbox2/dist/js/lightbox.min.js';
+import { LearnLinkImg } from '../media/';
 
 const Show = (props) => {
   const { id } = useParams()
@@ -23,6 +25,17 @@ const Show = (props) => {
       setEditForm(project);
     }
   }, [project]);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js';
+    script.async = true;
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   useEffect(() => {
     const storedComments = localStorage.getItem('comments');
@@ -88,13 +101,11 @@ const handleCommentSubmit = (e) => {
               {project.description}
           </div>
 
-            <div class="card2">
-                <h1>{project.name}</h1>
-                <img 
-                    className="avatar-image" 
-                    src={project.image} 
-                    alt={project.name} 
-                    />
+          <div class="card2">
+              <h1>{project.name}</h1>
+              <a href={project.image} data-lightbox="image-gallery" data-title={project.name}>
+                <img className="avatar-image" src={project.image} alt={project.name} />
+              </a>
             </div>
 
             <div className="card7">
