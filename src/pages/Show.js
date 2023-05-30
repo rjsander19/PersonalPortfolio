@@ -176,7 +176,7 @@ const Show = (props) => {
       </>
     );
   };
-  }
+  
   const loading = () => {
     return <h1>Loading ...</h1>;
   };
@@ -241,6 +241,7 @@ const Show = (props) => {
       )}
     </div>
   );
+  }
 };
 
 export default Show;
