@@ -20,17 +20,19 @@ const Show = (props) => {
 
   const [comments, setComments] = useState([]);
 
-  const goToPrevious = () => {
-    if (currentImage > 0) {
-      setCurrentImage(currentImage - 1);
-    }
-  };
+  const [currentImage, setCurrentImage] = useState(0);
 
-  const goToNext = () => {
-    if (currentImage < LearnLinkImg.length - 1) {
-      setCurrentImage(currentImage + 1);
-    }
-  };
+  // const goToPrevious = () => {
+  //   if (currentImage > 0) {
+  //     setCurrentImage(currentImage - 1);
+  //   }
+  // };
+
+  // const goToNext = () => {
+  //   if (currentImage < LearnLinkImg.length - 1) {
+  //     setCurrentImage(currentImage + 1);
+  //   }
+  // };
 
   useEffect(() => {
     if (project) {
