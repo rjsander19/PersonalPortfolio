@@ -5,6 +5,19 @@ import {Link} from "react-router-dom";
 const Resume = (props) => {
     return(
 <>
+<div className="show-container">
+    <div className="card-row">
+        <div className="toprow">
+            <div className="card1">
+                <p>
+                    CARD1CARD1CARD1
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing">View resume</Link>
 
 <Link to="/projects">
@@ -18,3 +31,4 @@ const Resume = (props) => {
 
 
 export default Resume;
+
