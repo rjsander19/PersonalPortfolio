@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useEffect } from 'react';
+
 import '../Show.css';
 
 
@@ -12,11 +12,7 @@ const Show = (props) => {
   
   const project = projects ? projects.find((p) => p._id === id ) : null
 
-  useEffect(() => {
-    if (project) {
-      setEditForm(project);
-    }
-  }, [project]);
+
 
   const loaded = () => {
     return (
