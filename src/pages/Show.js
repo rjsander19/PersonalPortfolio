@@ -39,13 +39,6 @@ const Show = (props) => {
     };
   }, []);
 
-  const goToPrevious = () => {
-    setCurrentImage((prevImage) => (prevImage > 0 ? prevImage - 1 : LearnLinkImg.length - 1));
-  };
-  
-  const goToNext = () => {
-    setCurrentImage((prevImage) => (prevImage < LearnLinkImg.length - 1 ? prevImage + 1 : 0));
-  };
 
   useEffect(() => {
     const storedComments = localStorage.getItem('comments');
