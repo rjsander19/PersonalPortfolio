@@ -1,12 +1,11 @@
 import React from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import '../Show.css';
 
 
 const Show = (props) => {
   const { id } = useParams()
-  const navigate = useNavigate()
   const projects = props.projects
   console.log(id);
   
