@@ -8,35 +8,35 @@ const Resume = (props) => {
 <div className="show-container">
     <div className="card-row">
         <div className="toprow">
-            <div className="card1">
+            <div className="job1">
                 <p>
                     CARD1CARD1CARD1
                 </p>
             </div>
         </div>
         <div className="secondrow">
-            <div className="card2">
+            <div className="job2">
                 <p>
                     CARD2CARD2CARD2
                 </p>
             </div>
         </div>
         <div className="thirdrow">
-            <div className="card3">
+            <div className="job3">
                 <p>
                     CARD3CARD3CARD3
                 </p>
             </div>
         </div>
         <div className="fourthrow">
-            <div className="card4">
+            <div className="job4">
                 <p>
                     CARD4CARD4CARD4
                 </p>
             </div>
         </div>
         <div className="fifthrow">
-            <div className="card5">
+            <div className="job5">
                 <p>
                     CARD5CARD5CARD5
                 </p>
