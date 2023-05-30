@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import '../Show.css';
 import LearnLinkImg from '../media.js';
-import CommentList from '../components/CommentList.js'; // Import the CommentList component
+
 
 const Show = (props) => {
   const { id } = useParams();
