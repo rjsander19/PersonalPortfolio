@@ -87,9 +87,3 @@
     display: flex;
     flex-direction: row-reverse;
   }
-
-  p {
-    display: flex;
-    flex-wrap: wrap;
-    width: 15%;
-  }
