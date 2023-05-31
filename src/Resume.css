@@ -91,4 +91,5 @@
   p {
     display: flex;
     flex-wrap: wrap;
+    width: fit-content;
   }
