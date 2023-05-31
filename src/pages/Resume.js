@@ -9,14 +9,14 @@ const Resume = (props) => {
     <div className="card-row">
         <div className="toprow">
             <div className="job1">
-                <p style="overflow-wrap: break-word;">
+            <p style={{ overflowWrap: 'break-word' }}>
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
                 </p>
             </div>
         </div>
         <div className="secondrow">
             <div className="job2">
-                <p style="overflow-wrap: break-word;">
+            <p style={{ overflowWrap: 'break-word' }}>
                     CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2
                 </p>
             </div>
@@ -30,14 +30,14 @@ const Resume = (props) => {
         </div>
         <div className="fourthrow">
             <div className="job4">
-                <p style="overflow-wrap: break-word;">
+            <p style={{ overflowWrap: 'break-word' }}>
                     CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4
                 </p>
             </div>
         </div>
         <div className="fifthrow">
             <div className="job5">
-                <p style="overflow-wrap: break-word;">
+            <p style={{ overflowWrap: 'break-word' }}>
                     CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5
                 </p>
             </div>
