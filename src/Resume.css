@@ -7,7 +7,9 @@
     gap: 50px;
     width: 300px;
   }
-  
+
+
+
   .job1 {
     display: flex;
     flex-direction: column;
@@ -21,10 +23,6 @@
     border-radius: 50%;
   }
   
-  .job1:hover:hover {
-    color: black;
-    text-decoration: underline;
-  }
   
   .job2 {
     display: flex;
@@ -78,6 +76,8 @@
     border-radius: 50%;
   }
 
+
+
   .secondrow {
     display: flex;
     flex-direction: row-reverse;
@@ -88,6 +88,33 @@
     flex-direction: row-reverse;
   }
 
+
+
   .job1text {
     word-wrap: break-word; 
+  }
+
+  .job2text {
+    word-wrap: break-word; 
+  }
+
+  .job3text {
+    word-wrap: break-word; 
+  }
+
+  .job4text {
+    word-wrap: break-word; 
+  }
+
+  .job5text {
+    word-wrap: break-word; 
+  }
+
+
+
+
+
+  .job1:hover:hover {
+    color: black;
+    text-decoration: underline;
   }
