@@ -11,10 +11,10 @@ const Resume = (props) => {
           <div className="job1">
             <div className="job1text">
                 <p><strong>General Assembly</strong></p>
-                    <p>Attended General Assembly Software Engineering Immersive Bootcamp</p>
-                    <p>
-                    CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
-                    </p>
+                    <p>March 2023 - May 2023</p>
+                      <p>
+                      Completed the Software Engineering Immersive Bootcamp through General Assembly
+                      </p>
                 </div>
             </div>
         </div>
@@ -23,7 +23,8 @@ const Resume = (props) => {
               <div className="job2text">
                 <p>Associated Property Management</p>
                   <p>Community Association Manager</p>
-                    <p>CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2</p>
+                    <p>March 2022 - November 2022</p>
+                      <p>As a community manager I was responsible for building and maintaining a business relationship with a portfolio of clients</p>
                 </div>
             </div>
         </div>
@@ -31,8 +32,9 @@ const Resume = (props) => {
             <div className="job3">
               <div className="job3text">
                   <p>Associa</p>
-                    <p>Community Manager</p>
-                      <p>CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3C</p>
+                    <p>November 2020 - February 2022</p>
+                      <p>Community Association Manager</p>
+                        <p>Some responsibilities I had in this role were: addressing maintenance and financial concerns that are reported by homeowners and board members</p>
                 </div>
             </div>
         </div>
@@ -40,8 +42,9 @@ const Resume = (props) => {
             <div className="job4">
               <div className="job4text">
                 <p>Associa</p>
-                  <p>Assistant Community Manager</p>
-                    <p>CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CCARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4</p>
+                  <p>August 2019 - November 2020</p>
+                    <p>Assistant Community Manager</p>
+                      <p>Responsible for customer service requests of property owners via phone and email</p>
                 </div>
             </div>
         </div>
@@ -49,8 +52,9 @@ const Resume = (props) => {
             <div className="job5">
               <div className="job5text">
                 <p>Chili's</p>
-                  <p>Server</p>
-                    <p>CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5</p>
+                  <p>June 2018 - November 2020</p>
+                    <p>Server</p>
+                      <p>Greeting and serving guests</p>
                 </div>
             </div>
         </div>
@@ -58,8 +62,9 @@ const Resume = (props) => {
             <div className="job6">
               <div className="job6text">
                 <p>Next Model Management</p>
-                  <p>Model</p>
-                    <p>CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARDRD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5</p>
+                  <p>May 2014 - August 2019</p>
+                    <p>Model</p>
+                      <p>Attending castings and auditions with potential clients, executing photoshoots/commercials</p>
                 </div>
             </div>
         </div>
