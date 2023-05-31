@@ -8,7 +8,7 @@ const Resume = (props) => {
 <div className="show-container">
     <div className="card-row">
         <div className="toprow">
-          <div className="job1" style={{ width: '100%', wordWrap: 'break-word' }}>
+          <div className="job1">
             <p>
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
                 </p>
@@ -16,28 +16,28 @@ const Resume = (props) => {
         </div>
         <div className="secondrow">
             <div className="job2">
-            <p style={{ overflowWrap: 'break-word' }}>
+            <p>
                     CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2
                 </p>
             </div>
         </div>
         <div className="thirdrow">
             <div className="job3">
-            <p style={{ overflowWrap: 'break-word' }}>
+            <p>
                     CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3
                 </p>
             </div>
         </div>
         <div className="fourthrow">
             <div className="job4">
-            <p style={{ overflowWrap: 'break-word' }}>
+            <p>
                     CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4
                 </p>
             </div>
         </div>
         <div className="fifthrow">
             <div className="job5">
-            <p style={{ overflowWrap: 'break-word' }}>
+            <p>
                     CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5
                 </p>
             </div>
