@@ -140,9 +140,48 @@
 
 /* Effects */
 
-
   .job1:hover:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
     margin-left: 30%;
     align-items: center;
+    margin-top: 10%;
   }
+
+  .job2:hover:hover {
+    transform: scale(1.4);
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .job3:hover:hover {
+    transform: scale(1.4);
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .job4:hover:hover {
+    transform: scale(1.4);
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .job5:hover:hover {
+    transform: scale(1.4);
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .job6:hover:hover {
+    transform: scale(1.4);
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  
+  
