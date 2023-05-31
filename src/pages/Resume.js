@@ -23,7 +23,7 @@ const Resume = (props) => {
         </div>
         <div className="thirdrow">
             <div className="job3">
-                <p style="overflow-wrap: break-word;">
+            <p style={{ overflowWrap: 'break-word' }}>
                     CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3
                 </p>
             </div>
