@@ -9,9 +9,9 @@ const Resume = (props) => {
     <div className="card-row">
         <div className="toprow">
           <div className="job1">
-            <p>
+            <div className="job1text">
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
-                </p>
+                </div>
             </div>
         </div>
         <div className="secondrow">
