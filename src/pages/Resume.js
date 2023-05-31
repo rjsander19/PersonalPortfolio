@@ -9,36 +9,36 @@ const Resume = (props) => {
     <div className="card-row">
         <div className="toprow">
             <div className="job1">
-                <p>
+                <p style="overflow-wrap: break-word;">
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
                 </p>
             </div>
         </div>
         <div className="secondrow">
             <div className="job2">
-                <p>
-                    CARD2CARD2CARD2
+                <p style="overflow-wrap: break-word;">
+                    CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2CARD2
                 </p>
             </div>
         </div>
         <div className="thirdrow">
             <div className="job3">
-                <p>
-                    CARD3CARD3CARD3
+                <p style="overflow-wrap: break-word;">
+                    CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3CARD3
                 </p>
             </div>
         </div>
         <div className="fourthrow">
             <div className="job4">
-                <p>
-                    CARD4CARD4CARD4
+                <p style="overflow-wrap: break-word;">
+                    CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4CARD4
                 </p>
             </div>
         </div>
         <div className="fifthrow">
             <div className="job5">
-                <p>
-                    CARD5CARD5CARD5
+                <p style="overflow-wrap: break-word;">
+                    CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5CARD5
                 </p>
             </div>
         </div>
