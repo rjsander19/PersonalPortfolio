@@ -8,8 +8,8 @@ const Resume = (props) => {
 <div className="show-container">
     <div className="card-row">
         <div className="toprow">
-            <div className="job1">
-            <p style={{ overflowWrap: 'break-word' }}>
+          <div className="job1" style={{ width: '100%', wordWrap: 'break-word' }}>
+            <p>
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
                 </p>
             </div>
