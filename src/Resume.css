@@ -89,5 +89,6 @@
   }
 
   .job1text {
-    font-size: 100px;
+    display: flex;
+    flex-wrap: wrap;
   }
