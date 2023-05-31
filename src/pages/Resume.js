@@ -21,9 +21,9 @@ const Resume = (props) => {
         <div className="secondrow">
             <div className="job2">
               <div className="job2text">
-                <p>Associated Property Management</p>
-                  <p>Community Association Manager</p>
-                    <p>March 2022 - November 2022</p>
+                <p><strong>Associated Property Management</strong></p>
+                  <p>March 2022 - November 2022</p>
+                    <p>Community Association Manager</p>
                       <p>As a community manager I was responsible for building and maintaining a business relationship with a portfolio of clients</p>
                 </div>
             </div>
@@ -31,7 +31,7 @@ const Resume = (props) => {
         <div className="thirdrow">
             <div className="job3">
               <div className="job3text">
-                  <p>Associa</p>
+                  <p><strong>Associa</strong></p>
                     <p>November 2020 - February 2022</p>
                       <p>Community Association Manager</p>
                         <p>Some responsibilities I had in this role were: addressing maintenance and financial concerns that are reported by homeowners and board members</p>
@@ -41,7 +41,7 @@ const Resume = (props) => {
         <div className="fourthrow">
             <div className="job4">
               <div className="job4text">
-                <p>Associa</p>
+                <p><strong>Associa</strong></p>
                   <p>August 2019 - November 2020</p>
                     <p>Assistant Community Manager</p>
                       <p>Responsible for customer service requests of property owners via phone and email</p>
@@ -51,7 +51,7 @@ const Resume = (props) => {
         <div className="fifthrow">
             <div className="job5">
               <div className="job5text">
-                <p>Chili's</p>
+                <p><strong>Chili's</strong></p>
                   <p>June 2018 - November 2020</p>
                     <p>Server</p>
                       <p>Greeting and serving guests</p>
@@ -61,7 +61,7 @@ const Resume = (props) => {
         <div className="sixthrow">
             <div className="job6">
               <div className="job6text">
-                <p>Next Model Management</p>
+                <p><strong>Next Model Management</strong></p>
                   <p>May 2014 - August 2019</p>
                     <p>Model</p>
                       <p>Attending castings and auditions with potential clients, executing photoshoots/commercials</p>
