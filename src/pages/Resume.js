@@ -10,7 +10,11 @@ const Resume = (props) => {
         <div className="toprow">
           <div className="job1">
             <div className="job1text">
+                <h1>General Assembly</h1>
+                    <h2>Attended General Assembly Software Engineering Immersive Bootcamp</h2>
+                    <p>
                     CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1CARD1
+                    </p>
                 </div>
             </div>
         </div>
