@@ -89,7 +89,5 @@
   }
 
   .job1text {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    word-wrap: break-word; 
   }
