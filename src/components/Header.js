@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "../Header.css"
 
 
-const Header = ({ toggleMode, isDarkMode }) => {
+const Header = (props) => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
     const toggleMode = () => {
