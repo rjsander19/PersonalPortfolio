@@ -140,7 +140,8 @@
   }
 
   .job6text {
-    word-wrap: break-word; 
+    word-wrap: break-word;
+    pointer-events: none;
   }
 
 
