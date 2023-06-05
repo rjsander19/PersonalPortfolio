@@ -19,3 +19,25 @@
 .h2 {
     font-size: 40px;
 }
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bio {
+        margin-right: 0;
+        margin-top: 2%;
+    }
+
+    .h2 {
+        font-size: 30px;
+    }
+}

@@ -106,15 +106,3 @@ p {
     transform: rotate(360deg);
   }
 }
-
-
-/* Dark Mode */
-.light-mode {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.dark-mode {
-  background-color: #000000;
-  color: #ffffff;
-}
