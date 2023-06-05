@@ -59,8 +59,6 @@ useEffect(() => getProjects(), []);
           <div className={isDarkMode ? "dark-mode" : "light-mode"}>
             <Routes>
 
-            <Header toggleMode={toggleMode} isDarkMode={isDarkMode} />
-
               <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
 
               <Route exact path="/resume" element={<Resume projects={projects} createProjects={createProjects}/>} />
