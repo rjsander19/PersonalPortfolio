@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Switch } from "react-router-dom";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
 import Landing from "../pages/Landing";
@@ -7,9 +7,16 @@ import Resume from "../pages/Resume";
 
 
 function Main(props) {
-    const [ projects, setProjects ] = useState(null)
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
+  const [ projects, setProjects ] = useState(null)
     // const URL = "http://localhost:4000/projects"
-    const URL = "https://backendpersonalportfolio.onrender.com/projects"
+  const URL = "https://backendpersonalportfolio.onrender.com/projects"
 
 
   const getProjects = async () => {
@@ -49,20 +56,26 @@ useEffect(() => getProjects(), []);
 
     return (
         <main>
-        <Routes>
+          <div className={isDarkMode ? "dark-mode" : "light-mode"}>
+            <Routes>
 
-            <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
+            <Header toggleMode={toggleMode} isDarkMode={isDarkMode} />
+            <Switch>
 
-            <Route exact path="/resume" element={<Resume projects={projects} createProjects={createProjects}/>} />
+              <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
 
-            <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects}/>} />
+              <Route exact path="/resume" element={<Resume projects={projects} createProjects={createProjects}/>} />
 
-            <Route path="/projects/:id" element={<Show projects={projects}
-            updateProjects={updateProjects}
-            deleteProjects={deleteProjects}
-            />} />
+              <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects}/>} />
 
-        </Routes>
+              <Route path="/projects/:id" element={<Show projects={projects}
+              updateProjects={updateProjects}
+              deleteProjects={deleteProjects}
+              />} />
+            </Switch>
+
+            </Routes>
+          </div>
         </main>
     );
 };

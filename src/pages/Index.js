@@ -38,7 +38,7 @@ const loading = () => {
 
 return (
     <section>
-
+  
       {props.projects ? loaded() : loading()}
     </section>
   )
