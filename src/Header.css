@@ -13,3 +13,26 @@
     margin-top: 10px;
 }
 
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .portfoliolink {
+        font-size: 12px;
+    }
+
+    .resumelink {
+        font-size: 12px;
+        margin-right: 4%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #logo {
+        height: 100px;
+        width: 180px;
+      }
+}
