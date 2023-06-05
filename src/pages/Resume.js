@@ -14,7 +14,7 @@ const Resume = (props) => {
 <div className="show-container">
     <div className="card-row">
         <div className="toprow">
-          <div className="job1">
+        <div className={`job1 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
             <div className="job1text">
                 <p><strong>General Assembly</strong></p>
                     <p>March 2023 - May 2023</p>
@@ -25,7 +25,7 @@ const Resume = (props) => {
             </div>
         </div>
         <div className="secondrow">
-            <div className="job2">
+        <div className={`job2 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
               <div className="job2text">
                 <p><strong>Associated Property Management</strong></p>
                   <p>March 2022 - November 2022</p>
@@ -35,7 +35,7 @@ const Resume = (props) => {
             </div>
         </div>
         <div className="thirdrow">
-            <div className="job3">
+        <div className={`job3 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
               <div className="job3text">
                   <p><strong>Associa</strong></p>
                     <p>November 2020 - February 2022</p>
@@ -45,7 +45,7 @@ const Resume = (props) => {
             </div>
         </div>
         <div className="fourthrow">
-            <div className="job4">
+        <div className={`job4 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
               <div className="job4text">
                 <p><strong>Associa</strong></p>
                   <p>August 2019 - November 2020</p>
@@ -55,7 +55,7 @@ const Resume = (props) => {
             </div>
         </div>
         <div className="fifthrow">
-            <div className="job5">
+        <div className={`job5 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
               <div className="job5text">
                 <p><strong>Chili's</strong></p>
                   <p>June 2018 - November 2020</p>
