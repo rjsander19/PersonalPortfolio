@@ -4,13 +4,9 @@ import "../Header.css"
 
 
 const Header = (props) => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
 
-    const toggleMode = () => {
-      setIsDarkMode(!isDarkMode);
-    };
     return (
-        <div className={`header ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+        <div className = "header">
             <Link to="/">
                 <div><img src="https://i.ibb.co/SPNyfjs/Roxanne-logo-light.png" id="logo" alt="logo"></img></div>
             </Link>

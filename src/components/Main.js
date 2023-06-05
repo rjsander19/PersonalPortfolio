@@ -52,7 +52,6 @@ useEffect(() => getProjects(), []);
 
     return (
         <main>
-          <div className={isDarkMode ? "dark-mode" : "light-mode"}>
             <Routes>
 
               <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
@@ -67,7 +66,6 @@ useEffect(() => getProjects(), []);
               />} />
 
             </Routes>
-          </div>
         </main>
     );
 };
