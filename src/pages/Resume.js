@@ -64,8 +64,8 @@ const Resume = (props) => {
                 </div>
             </div>
         </div>
-        <div className={`sixthrow ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
-            <div className="job6">
+        <div className="sixthrow">
+        <div className={`job6 ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
               <div className="job6text">
                 <p><strong>Next Model Management</strong></p>
                   <p>May 2014 - August 2019</p>
