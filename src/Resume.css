@@ -147,6 +147,44 @@
 
 /* Effects */
 
+
+.job1.active {
+  transform: scale(1.4);
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.job2.active {
+  transform: scale(1.4);
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+.job3.active {
+  transform: scale(1.4);
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.job4.active{
+  transform: scale(1.4);
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+.job5.active {
+  transform: scale(1.4);
+  margin-left: 30%;
+  align-items: center;
+  margin-top: 10%;
+}
+
 .job6.active {
   transform: scale(1.4);
   margin-left: 30%;
@@ -155,6 +193,18 @@
   margin-bottom: 10%;
   margin-right: 30%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
