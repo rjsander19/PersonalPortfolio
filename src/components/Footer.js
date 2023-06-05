@@ -14,9 +14,7 @@ const Footer = (props) => {
                     <p><img src="https://i.ibb.co/2tpdBR4/Screen-Shot-2023-05-30-at-2-31-59-PM.png" alt="githublogo" className="githublogo"/></p>
                 </div>
             </Link>
-                <div className="Email">
-                    <p><img src="https://i.ibb.co/L0VQrWr/Screen-Shot-2023-05-30-at-2-41-49-PM.png" alt="emailicon" className="emailicon"/></p>
-                </div>
+
         </footer>
     )
 };
