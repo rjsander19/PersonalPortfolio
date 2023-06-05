@@ -8,11 +8,7 @@ import Resume from "../pages/Resume";
 
 function Main(props) {
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
 
   const [ projects, setProjects ] = useState(null)
     // const URL = "http://localhost:4000/projects"

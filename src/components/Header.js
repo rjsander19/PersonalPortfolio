@@ -2,7 +2,13 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "../Header.css"
 
+
 const Header = ({ toggleMode, isDarkMode }) => {
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const toggleMode = () => {
+      setIsDarkMode(!isDarkMode);
+    };
     return (
         <div className={`header ${isDarkMode ? "dark-mode" : "light-mode"}`}>
             <Link to="/">
