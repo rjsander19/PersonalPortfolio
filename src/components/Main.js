@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import { Route, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
 import Landing from "../pages/Landing";
@@ -60,7 +60,6 @@ useEffect(() => getProjects(), []);
             <Routes>
 
             <Header toggleMode={toggleMode} isDarkMode={isDarkMode} />
-            <Switch>
 
               <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
 
@@ -72,7 +71,6 @@ useEffect(() => getProjects(), []);
               updateProjects={updateProjects}
               deleteProjects={deleteProjects}
               />} />
-            </Switch>
 
             </Routes>
           </div>
