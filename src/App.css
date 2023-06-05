@@ -30,11 +30,15 @@
  .githublogo {
   height: 26px;
   width: 26px;
+  margin-left: 5px;
+  margin-right: 5px;
  }
 
  .linkedinlogo {
   height: 26px;
   width: 26px;
+  margin-left: 5px;
+  margin-right: 5px;
  }
 
 
@@ -46,20 +50,6 @@ p {
   text-align: center;
   padding-right: 20px;
   padding-left: 20px;
-}
-
-.link-text {
-  display: none; /* Hide the text initially */
-}
-
-/* Media query for small screens */
-@media screen and (max-width: 768px) {
-  .link-text {
-    display: block;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
 }
 
 
