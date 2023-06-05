@@ -54,7 +54,15 @@ p {
 
 
 
-
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .link-text {
+    display: none;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
 
 
 
