@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../Resume.css"
 import {Link} from "react-router-dom";
 
 const Resume = (props) => {
-    return(
+  const [isActive, setIsActive] = useState(false);
+
+  const handleJobClick = () => {
+    setIsActive(!isActive);
+  };
+
+  return(
 <>
 <div className="show-container">
     <div className="card-row">
@@ -58,7 +64,7 @@ const Resume = (props) => {
                 </div>
             </div>
         </div>
-        <div className="sixthrow">
+        <div className={`sixthrow ${isActive ? 'active' : ''}`} onClick={handleJobClick}>
             <div className="job6">
               <div className="job6text">
                 <p><strong>Next Model Management</strong></p>
