@@ -2,9 +2,9 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "../Header.css"
 
-const Header = (props) => {
+const Header = ({ toggleMode, isDarkMode }) => {
     return (
-        <div className="header">
+        <div className={`header ${isDarkMode ? "dark-mode" : "light-mode"}`}>
             <Link to="/">
                 <div><img src="https://i.ibb.co/SPNyfjs/Roxanne-logo-light.png" id="logo" alt="logo"></img></div>
             </Link>
