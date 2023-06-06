@@ -156,10 +156,10 @@
 
 .job2.active {
   transform: scale(1.4);
-  margin-left: 30%;
+  /* margin-left: 30%; */
   align-items: center;
-  margin-top: 10%;
-  margin-right: 30%;
+  /* margin-top: 10%;
+  margin-right: 30%; */
 }
 
 .job3.active {
@@ -191,6 +191,34 @@
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 30%;
+}
+
+
+
+
+
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .portfoliolink {
+      font-size: 12px;
+  }
+
+  .resumelink {
+      font-size: 12px;
+      margin-right: 4%;
+  }
+
+  .header {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+  }
+
+  #logo {
+      height: 100px;
+      width: 180px;
+    }
 }
 
 
