@@ -156,7 +156,6 @@
 
 .job2.active {
   transform: scale(1.4);
-  /* margin-left: 30%; */
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
@@ -171,7 +170,6 @@
 
 .job4.active{
   transform: scale(1.4);
-  margin-left: 30%;
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
@@ -186,7 +184,6 @@
 
 .job6.active {
   transform: scale(1.4);
-  margin-left: 30%;
   align-items: center;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -199,7 +196,7 @@
 
 
 /* Media queries for smaller screens */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .portfoliolink {
       font-size: 12px;
   }
@@ -219,7 +216,7 @@
       height: 100px;
       width: 180px;
     }
-}
+} */
 
 
 
