@@ -22,6 +22,7 @@
 
 .welcomemessage {
     font-size: 40px;
+    font-weight: bold;
 }
 
 /* Media queries for smaller screens */
