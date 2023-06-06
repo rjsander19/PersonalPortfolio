@@ -22,8 +22,7 @@
     background-color: #fcefc9;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   
   
@@ -39,8 +38,7 @@
     background-color: #fcefc9;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   .job3 {
@@ -54,8 +52,7 @@
     padding: 50px;
     background-color: #fcefc9;
     border-radius: 50%;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   .job4 {
@@ -70,8 +67,7 @@
     background-color: #fcefc9;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   .job5 {
@@ -86,8 +82,7 @@
     background-color: #fcefc9;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
   .job6 {
@@ -102,8 +97,7 @@
     background-color: #fcefc9;
     border-radius: 50%;
     margin: 20px 20px 20px 20px;
-    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-    pointer-events: fill;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
 
 /* Circle placement on screen  */
@@ -200,65 +194,37 @@
 }
 
 
+/* on hover effects */
 
+.job1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
+.job2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
+.job3:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
+.job4:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
+.job5:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
-
-
-
-
-
-
-
-
-  /* .job1:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-  }
-
-  .job2:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-    margin-right: 30%;
-  }
-
-  .job3:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-  }
-
-  .job4:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-    margin-right: 30%;
-  }
-
-  .job5:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-  }
-
-  .job6:hover:hover {
-    transform: scale(1.4);
-    margin-left: 30%;
-    align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-right: 30%;
-  } */
+.job6:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
   
   
   
