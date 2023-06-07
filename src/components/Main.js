@@ -13,7 +13,21 @@ function Main(props) {
   const [ projects, setProjects ] = useState(null)
     // const URL = "http://localhost:4000/projects"
   const URL = "https://backendpersonalportfolio.onrender.com/projects"
+  const [themeMode, setThemeMode] = useState("light");
 
+  const lightTheme = {
+    backgroundColor: "white",
+    color: "black",
+  };
+
+  const darkTheme = {
+    backgroundColor: "black",
+    color: "white",
+  };
+
+  const toggleThemeMode = () => {
+    setThemeMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+  };
 
   const getProjects = async () => {
     const response = await fetch(URL);
@@ -51,7 +65,9 @@ function Main(props) {
 useEffect(() => getProjects(), []);
 
     return (
-        <main>
+      <main style={themeMode === "light" ? lightTheme : darkTheme}>
+      <button onClick={toggleThemeMode}>Toggle Theme</button>
+
             <Routes>
 
               <Route exact path="/" element={<Landing projects={projects} createProjects={createProjects}/>} />
