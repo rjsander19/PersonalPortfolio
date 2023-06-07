@@ -21,7 +21,7 @@ function Main(props) {
   };
 
   const darkTheme = {
-    backgroundColor: "black",
+    backgroundColor: "#50514F",
     color: "white",
   };
 
