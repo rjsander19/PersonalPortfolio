@@ -20,7 +20,10 @@ function Main(props) {
     color: "black",
   };
 
-  const darkTheme = darkTheme
+  const darkTheme = {
+    backgroundColor: "black",
+    color: "white",
+  };
 
   const toggleButtonStyles = {
     padding: "0.5rem 1rem",
