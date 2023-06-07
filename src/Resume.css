@@ -105,19 +105,16 @@
   .secondrow {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
   }
 
   .fourthrow {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
   }
 
   .sixthrow {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
   }
 
 /* Text */
