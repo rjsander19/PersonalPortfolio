@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Index from "../pages/Index";
 import Show from "../pages/Show";
 import Landing from "../pages/Landing";
