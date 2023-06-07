@@ -82,6 +82,12 @@ function Main(props) {
 
 useEffect(() => getProjects(), []);
 
+
+const location = useLocation();
+  const isResumePage = location.pathname === "/resume";
+
+
+
     return (
       <main style={themeMode === "light" ? lightTheme : darkTheme}>
 
