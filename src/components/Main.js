@@ -42,6 +42,7 @@ function Main(props) {
 
   const toggleThemeMode = () => {
     setThemeMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+    setToggled((prevState) => !prevState);
   };
 
 
@@ -98,7 +99,16 @@ useEffect(() => getProjects(), []);
               />} />
 
             </Routes>
-            <button onClick={toggleThemeMode}>Toggle Theme</button>
+            <button
+        onClick={toggleThemeMode}
+        style={
+          isToggled
+            ? { ...toggleButtonStyles, ...toggleButtonActiveStyles }
+            : toggleButtonStyles
+        }
+      >
+        {isToggled ? "Dark Mode" : "Light Mode"}
+      </button>
             
         </main>
     );
