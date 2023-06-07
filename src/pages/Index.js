@@ -6,7 +6,7 @@ import '../index.css';
 
 const Index = (props) => {
 
-  const tickerText = "Experience with techonologies:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   Postman,   JQuery,   Django,   and learning new things everyday!";
+  const tickerText = "Experienced with:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   Postman,   JQuery,   Django,   and learning new things everyday!";
 
   const renderTicker = () => {
     return (
