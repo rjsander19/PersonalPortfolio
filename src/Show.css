@@ -83,8 +83,10 @@ h1 {
 /* Media Queries */
 @media (max-width: 768px) {
 
-    .h1 {
-      margin: 5%;    
+    h1 {
+      margin: 5%;   
+      font-size: 20px; 
     }
+
 
   }
