@@ -12,7 +12,7 @@ const Index = (props) => {
   const renderTicker = () => {
     return (
       <div className="ticker">
-        // eslint-disable-next-line jsx-a11y/no-distracting-elements
+        [eslint-disable-next-line jsx-a11y/no-distracting-elements]
         <marquee>{tickerText}</marquee>
       </div>
     );
