@@ -48,7 +48,7 @@ a:hover {
 }
 
 .projects:hover .project-description {
-  display: block; 
+  display:contents; 
 }
 
 
