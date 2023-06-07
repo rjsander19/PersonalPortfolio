@@ -60,7 +60,7 @@ a:hover {
 
 .ticker-text {
   display: inline-block;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   animation: marquee 30s linear infinite;
 }
 
