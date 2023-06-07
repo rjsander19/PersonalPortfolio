@@ -56,13 +56,14 @@ a:hover {
 .ticker-container {
   width: 100%;
   overflow: hidden;
-  background-color: #fcefc9;
+
 }
 
 .ticker-text {
   display: inline-block;
   white-space: nowrap;
   animation: marquee 30s linear infinite;
+  background-color: #fcefc9;
 }
 
 @keyframes marquee {
