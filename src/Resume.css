@@ -105,16 +105,19 @@
   .secondrow {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 
   .fourthrow {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 
   .sixthrow {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-end;
   }
 
 /* Text */
@@ -197,18 +200,27 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .job {
-    height: 120px;
-    width: 120px;
-    font-size: 10px;
-    padding: 20px;
-  }
 
   .jobtext {
     font-size: 10px;
   }
 
-  .job.active {
+  .job1.active {
+    margin: 10% auto; /* Adjust the margins for centering */
+  }
+  .job2.active {
+    margin: 10% auto; /* Adjust the margins for centering */
+  }
+  .job3.active {
+    margin: 10% auto; /* Adjust the margins for centering */
+  }
+  .job4.active {
+    margin: 10% auto; /* Adjust the margins for centering */
+  }
+  .job5.active {
+    margin: 10% auto; /* Adjust the margins for centering */
+  }
+  .job6.active {
     margin: 10% auto; /* Adjust the margins for centering */
   }
 }
