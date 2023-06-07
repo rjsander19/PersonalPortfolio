@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import '../index.css'
+import '../index.css';
+import Header from "./Header";
+
+
 
 const Index = (props) => {
 
@@ -48,6 +51,7 @@ const loading = () => {
 
 return (
     <section>
+      <Header />
    {renderTicker()}
       {props.projects ? loaded() : loading()}
     </section>
