@@ -107,7 +107,7 @@ useEffect(() => getProjects(), []);
             : toggleButtonStyles
         }
       >
-        {isToggled ? "Dark Mode" : "Light Mode"}
+        {isToggled ? "Light Mode" : "Dark Mode"}
       </button>
             
         </main>
