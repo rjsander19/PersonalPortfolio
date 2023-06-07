@@ -279,3 +279,14 @@
   height: 100px;
   width: 100px;
 }
+
+
+
+button {
+  display: none;
+}
+
+
+.button {
+  display: none;
+}
