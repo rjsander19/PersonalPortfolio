@@ -4,6 +4,16 @@ import '../index.css'
 
 const Index = (props) => {
 
+  const tickerText = "Technologies";
+
+  const renderTicker = () => {
+    return (
+      <div className="ticker">
+        <marquee>{tickerText}</marquee>
+      </div>
+    );
+  };
+
 
 const renderDescription = (project) => {
     return (
@@ -38,7 +48,7 @@ const loading = () => {
 
 return (
     <section>
-  
+   {renderTicker()}
       {props.projects ? loaded() : loading()}
     </section>
   )
