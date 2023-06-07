@@ -11,27 +11,6 @@ const Resume = (props) => {
     setActiveStates(newActiveStates);
   };
 
-
-  // Dark mode 
-  // const circleStyles = {
-  //   light: {
-  //     backgroundColor: "white",
-  //   },
-  //   dark: {
-  //     backgroundColor: "#50514F",
-  //   },
-    // const lightTheme = {
-    //   backgroundColor: "white",
-    //   color: "black",
-    // },
-    // const darkTheme = {
-    //   backgroundColor: "#50514F",
-    //   color: "white",
-    // }
-  // };
-
-
-
   return (
     <>
       <div className="show-container">

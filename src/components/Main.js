@@ -93,23 +93,19 @@ useEffect(() => getProjects(), []);
 
               <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects} themeMode={themeMode}/>} />
 
-              <Route path="/projects/:id" element={<Show projects={projects}
-              updateProjects={updateProjects}
-              deleteProjects={deleteProjects}
-              />} />
-
-            </Routes>
-            <button
-        onClick={toggleThemeMode}
-        style={
-          isToggled
-            ? { ...toggleButtonStyles, ...toggleButtonActiveStyles }
-            : toggleButtonStyles
-        }
-      >
-        {isToggled ? "Light Mode" : "Dark Mode"}
-      </button>
-            
+              <Route
+          path="/projects/:id"
+          element={<Show projects={projects} updateProjects={updateProjects} deleteProjects={deleteProjects} />}
+        />
+      </Routes>
+      {isResumePage ? null : (
+        <button
+          onClick={toggleThemeMode}
+          style={isToggled ? { ...toggleButtonStyles, ...toggleButtonActiveStyles } : toggleButtonStyles}
+        >
+          {isToggled ? "Light Mode" : "Dark Mode"}
+        </button>
+      )}
         </main>
     );
 };
