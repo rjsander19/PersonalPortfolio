@@ -13,6 +13,8 @@ function Main(props) {
   // Dark mode
   const [themeMode, setThemeMode] = useState("light");
 
+  const [isToggled, setToggled] = useState(false);
+
   const lightTheme = {
     backgroundColor: "white",
     color: "black",
@@ -20,6 +22,21 @@ function Main(props) {
 
   const darkTheme = {
     backgroundColor: "black",
+    color: "white",
+  };
+
+  const toggleButtonStyles = {
+    padding: "0.5rem 1rem",
+    borderRadius: "4px",
+    backgroundColor: "lightgray",
+    color: "black",
+    border: "none",
+    outline: "none",
+    cursor: "pointer",
+  };
+
+  const toggleButtonActiveStyles = {
+    backgroundColor: "darkgray",
     color: "white",
   };
 
