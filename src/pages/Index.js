@@ -6,7 +6,7 @@ import '../index.css';
 
 const Index = (props) => {
 
-  const tickerText = "Technologies";
+  const tickerText = "hbsdkhgfvghdbkcvhgb dkhgcbkhdagfvdkhfvsjdfhgvfdkgvbghkbvkhgdsfbvdfghvbgdhfksvbhdgfbvkgsvbkfhgvkhgdfkhgvdkhgvkhgvdfhkgsvhdsfgvdghshdfkcvgdsvhkdsgfvhdgkfvkgdfvkhdgfbvkhgdbtvktvbjvtfvjnvtvgnmfgbvbhmvmhvfgjfdvhtfgvjdshfvbjdafg";
 
   const renderTicker = () => {
     return (
