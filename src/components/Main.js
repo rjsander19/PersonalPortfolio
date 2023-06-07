@@ -91,7 +91,7 @@ useEffect(() => getProjects(), []);
 
               <Route exact path="/resume" element={<Resume projects={projects} createProjects={createProjects}/>} />
 
-              <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects}/>} />
+              <Route exact path="/projects" element={<Index projects={projects} createProjects={createProjects} themeMode={themeMode}/>} />
 
               <Route path="/projects/:id" element={<Show projects={projects}
               updateProjects={updateProjects}

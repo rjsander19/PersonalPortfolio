@@ -11,6 +11,21 @@ const Resume = (props) => {
     setActiveStates(newActiveStates);
   };
 
+
+  // Dark mode 
+  const circleStyles = {
+    light: {
+      backgroundColor: "white",
+      border: "2px solid #50514F",
+    },
+    dark: {
+      backgroundColor: "#50514F",
+      border: "2px solid white",
+    },
+  };
+
+
+
   return (
     <>
       <div className="show-container">
