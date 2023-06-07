@@ -32,7 +32,7 @@ const Resume = (props) => {
         <div className="card-row">
           <div className="toprow">
             <div className={`job1 ${activeStates[0] ? 'active' : ''}`} onClick={() => handleJobClick(0)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job1text">
                 <p><strong>General Assembly</strong></p>
@@ -46,7 +46,7 @@ const Resume = (props) => {
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="secondrow">
             <div className={`job2 ${activeStates[1] ? 'active' : ''}`} onClick={() => handleJobClick(1)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job2text">
                 <p><strong>Associated Property Management</strong></p>
@@ -59,7 +59,7 @@ const Resume = (props) => {
           <img src="https://i.ibb.co/SdsQyRt/arrowleft.png" alt="arrowleft" className="arrowleft"></img>
           <div className="thirdrow">
             <div className={`job3 ${activeStates[2] ? 'active' : ''}`} onClick={() => handleJobClick(2)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job3text">
                 <p><strong>Associa</strong></p>
@@ -72,7 +72,7 @@ const Resume = (props) => {
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="fourthrow">
             <div className={`job4 ${activeStates[3] ? 'active' : ''}`} onClick={() => handleJobClick(3)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job4text">
                 <p><strong>Associa</strong></p>
@@ -85,7 +85,7 @@ const Resume = (props) => {
           <img src="https://i.ibb.co/SdsQyRt/arrowleft.png" alt="arrowleft" className="arrowleft"></img>
           <div className="fifthrow">
             <div className={`job5 ${activeStates[4] ? 'active' : ''}`} onClick={() => handleJobClick(4)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job5text">
                 <p><strong>Chili's</strong></p>
@@ -98,7 +98,7 @@ const Resume = (props) => {
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="sixthrow">
             <div className={`job6 ${activeStates[5] ? 'active' : ''}`} onClick={() => handleJobClick(5)}
-            style={props.themeMode === "light" ? circleStyles.light : circleStyles.dark}
+            style={props.themeMode === "dark" ? circleStyles.light : circleStyles.dark}
             >
               <div className="job6text">
                 <p><strong>Next Model Management</strong></p>
