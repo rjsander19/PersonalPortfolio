@@ -15,8 +15,6 @@ const Footer = (props) => {
                 </div>
             </Link>
 
-            <button onClick={toggleThemeMode}>Toggle Theme</button>
-            
         </footer>
     )
 };

@@ -7,12 +7,10 @@ import Resume from "../pages/Resume";
 
 
 function Main(props) {
-
-
-
   const [ projects, setProjects ] = useState(null)
-    // const URL = "http://localhost:4000/projects"
   const URL = "https://backendpersonalportfolio.onrender.com/projects"
+
+  // Dark mode
   const [themeMode, setThemeMode] = useState("light");
 
   const lightTheme = {
@@ -28,6 +26,8 @@ function Main(props) {
   const toggleThemeMode = () => {
     setThemeMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
   };
+
+
 
   const getProjects = async () => {
     const response = await fetch(URL);
@@ -66,7 +66,6 @@ useEffect(() => getProjects(), []);
 
     return (
       <main style={themeMode === "light" ? lightTheme : darkTheme}>
-      <button onClick={toggleThemeMode}>Toggle Theme</button>
 
             <Routes>
 
@@ -82,6 +81,8 @@ useEffect(() => getProjects(), []);
               />} />
 
             </Routes>
+            <button onClick={toggleThemeMode}>Toggle Theme</button>
+            
         </main>
     );
 };
