@@ -25,6 +25,7 @@ const Resume = (props) => {
                 </p>
               </div>
             </div>
+            <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow"></img>
           </div>
           <div className="secondrow">
             <div className={`job2 ${activeStates[1] ? 'active' : ''}`} onClick={() => handleJobClick(1)}>
