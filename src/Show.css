@@ -74,3 +74,17 @@ h1 {
     height: 70%;
     width: 70%;
 }
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    .h1 {
+      margin-bottom: 5%;    
+    }
+
+  }
