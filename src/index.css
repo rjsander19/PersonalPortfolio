@@ -75,7 +75,11 @@ a:hover {
   }
 }
 
-
+@media (max-width: 768px) {
+  .ticker-text {
+    animation-duration: 40s; /* Adjust the duration for mobile devices */
+  }
+}
 
 
 
