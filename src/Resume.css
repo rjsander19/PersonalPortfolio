@@ -1,19 +1,5 @@
 
 
-body {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/012/066/678/non_2x/a-background-with-pastel-neutral-color-with-simple-elegant-shape-ornament-vector.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0;
-}
-
-.show-container {
-  position: relative;
-  z-index: 1;
-}
-
-
-
 
 .h2 {
     font-size: 14px;
