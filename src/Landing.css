@@ -23,6 +23,7 @@
 .welcomemessage {
     font-size: 40px;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 /* Media queries for smaller screens */
