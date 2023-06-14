@@ -93,6 +93,21 @@ const handleCommentSubmit = (e) => {
                     src={project.image} 
                     alt={project.name} 
                     />
+                <img 
+                    className="screenshot1" 
+                    src={project.screenshot1} 
+                    alt={project.name} 
+                    />
+                <img 
+                    className="screenshot2" 
+                    src={project.screenshot2} 
+                    alt={project.name} 
+                    />
+                <img 
+                    className="screenshot3" 
+                    src={project.screenshot3} 
+                    alt={project.name} 
+                    />
             </div>
 
             <div className="card7">
@@ -170,6 +185,27 @@ const handleCommentSubmit = (e) => {
     value={editForm.image}
     name="image"
     placeholder="image URL"
+    onChange={handleChange}
+  />
+  <input
+    type="text"
+    value={editForm.screenshot1}
+    name="screenshot1"
+    placeholder="screenshot 1"
+    onChange={handleChange}
+  />
+  <input
+    type="text"
+    value={editForm.screenshot2}
+    name="screenshot2"
+    placeholder="screenshot 2"
+    onChange={handleChange}
+  />
+  <input
+    type="text"
+    value={editForm.screenshot3}
+    name="screenshot3"
+    placeholder="screenshot 3"
     onChange={handleChange}
   />
   <input

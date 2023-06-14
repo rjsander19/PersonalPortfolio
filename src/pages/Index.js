@@ -98,6 +98,27 @@ return (
           />
           <input
             type="text"
+            value={editForm.screenshot1}
+            name="screenshot1"
+            placeholder="screenshot 1"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={editForm.screenshot2}
+            name="screenshot2"
+            placeholder="screenshot 2"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={editForm.screenshot3}
+            name="screenshot3"
+            placeholder="screenshot 3"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
             value={newForm.description}
             name="description"
             placeholder="Description"
