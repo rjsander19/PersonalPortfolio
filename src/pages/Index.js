@@ -5,17 +5,7 @@ import '../index.css';
 
 
 const Index = (props) => {
-
-  const tickerText = "Experienced with:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   Postman,   JQuery,   Django,   and learning new things everyday!";
-
-  const renderTicker = () => {
-    return (
-      <div className="ticker">
-        <span className="ticker-text">{tickerText}</span>
-      </div>
-    );
-  };
-  
+    
   const [newForm, setNewForm] = useState({
     name: "",
     image: "",
@@ -28,10 +18,11 @@ const Index = (props) => {
 const handleChange = (event) => {
 setNewForm({...newForm, [event.target.name]:event.target.value})
 };
+
 const handleSubmit = (event) => {
-event.preventDefault();
-props.createProjects(newForm);
-setNewForm({
+  event.preventDefault();
+  props.createProjects(newForm);
+  setNewForm({
     name: "",
     image:"",
     description: "",
@@ -39,9 +30,20 @@ setNewForm({
     website: "",
     codes: "",
     process: "",
-})
+  })
 };
 
+
+
+  const tickerText = "Experienced with:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   Postman,   JQuery,   Django,   and learning new things everyday!";
+
+  const renderTicker = () => {
+    return (
+      <div className="ticker">
+        <span className="ticker-text">{tickerText}</span>
+      </div>
+    );
+  };
 
 const renderDescription = (project) => {
     return (
@@ -76,9 +78,7 @@ const loading = () => {
 
 return (
     <section>
-   {renderTicker()}
-      {props.projects ? loaded() : loading()}
-    
+
           <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -138,6 +138,9 @@ return (
           />
           <input type="submit" value="Create Project" />
         </form>
+        {renderTicker()}
+      {props.projects ? loaded() : loading()}
+    
         </section>
   )
 };
