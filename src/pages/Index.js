@@ -25,6 +25,9 @@ const handleSubmit = (event) => {
   setNewForm({
     name: "",
     image:"",
+    screenshot1:"",
+    screenshot2:"",
+    screenshot3:"",
     description: "",
     technology: "",
     website: "",
