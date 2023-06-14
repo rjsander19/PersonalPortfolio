@@ -9,6 +9,9 @@ const Index = (props) => {
   const [newForm, setNewForm] = useState({
     name: "",
     image: "",
+    screenshot1:"",
+    screenshot2:"",
+    screenshot3:"",
     description: "",
     technology: "",
     website: "",
@@ -101,21 +104,21 @@ return (
           />
           <input
             type="text"
-            value={editForm.screenshot1}
+            value={newForm.screenshot1}
             name="screenshot1"
             placeholder="screenshot 1"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={editForm.screenshot2}
+            value={newForm.screenshot2}
             name="screenshot2"
             placeholder="screenshot 2"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={editForm.screenshot3}
+            value={newForm.screenshot3}
             name="screenshot3"
             placeholder="screenshot 3"
             onChange={handleChange}
