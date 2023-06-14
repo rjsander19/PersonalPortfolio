@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React from "react";
+import React, {useState} from "react";
 import '../index.css';
 
 
@@ -15,6 +15,32 @@ const Index = (props) => {
       </div>
     );
   };
+  
+  const [newForm, setNewForm] = useState({
+    name: "",
+    image: "",
+    description: "",
+    technology: "",
+    website: "",
+    codes: "",
+    process: "",
+})
+const handleChange = (event) => {
+setNewForm({...newForm, [event.target.name]:event.target.value})
+};
+const handleSubmit = (event) => {
+event.preventDefault();
+props.createProjects(newForm);
+setNewForm({
+    name: "",
+    image:"",
+    description: "",
+    technology: "",
+    website: "",
+    codes: "",
+    process: "",
+})
+};
 
 
 const renderDescription = (project) => {
@@ -52,7 +78,67 @@ return (
     <section>
    {renderTicker()}
       {props.projects ? loaded() : loading()}
-    </section>
+    
+          <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={newForm.name}
+            name="name"
+            placeholder="Name"
+            className="formName"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.image}
+            name="image"
+            placeholder="Image url"
+            className="formImage"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.description}
+            name="description"
+            placeholder="Description"
+            className="formDescription"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.technology}
+            name="technology"
+            placeholder="Technology"
+            className="formTechnology"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.website}
+            name="website"
+            placeholder="Website"
+            className="website"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.codes}
+            name="codes"
+            placeholder="Code"
+            className="codes"
+            onChange={handleChange}
+          />
+          <input
+            type="text"
+            value={newForm.process}
+            name="process"
+            placeholder="process"
+            className="process"
+            onChange={handleChange}
+          />
+          <input type="submit" value="Create Project" />
+        </form>
+        </section>
   )
 };
 
