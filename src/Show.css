@@ -101,6 +101,7 @@ h1 {
         flex-wrap: nowrap;
         flex-direction: column;
         gap: 2px;
+        align-items: center;
       }
 
     .avatar-image,
