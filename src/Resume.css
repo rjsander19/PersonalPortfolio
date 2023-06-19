@@ -281,7 +281,15 @@
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 } 
   
-
+.job1.active:hover,
+.job2.active:hover,
+.job3.active:hover,
+.job4.active:hover,
+.job5.active:hover,
+.job6.active:hover {
+  transform: scale(1.4);
+  box-shadow: none; /* Remove the box shadow on hover */
+}
 
 /* Style arrows on resume page */
 .arrowright {
