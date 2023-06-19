@@ -1,6 +1,4 @@
 
-
-
 .h2 {
     font-size: 14px;
 }
@@ -9,6 +7,11 @@
     display: inline-grid;
     gap: 50px;
     width: 300px;
+  }
+
+.show-container {
+    margin-top: 0;
+    transition: margin 0.3s ease-in-out;
   }
 
 /* Circles */
