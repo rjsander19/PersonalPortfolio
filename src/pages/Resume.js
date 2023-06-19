@@ -28,6 +28,7 @@ const Resume = (props) => {
               </div>
             </div>
           </div>
+          <br></br>
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="secondrow">
             <div className={`job2 ${activeStates[1] ? 'active' : ''}`} onClick={() => handleJobClick(1)}
@@ -40,6 +41,7 @@ const Resume = (props) => {
               </div>
             </div>
           </div>
+          <br></br>
           <img src="https://i.ibb.co/SdsQyRt/arrowleft.png" alt="arrowleft" className="arrowleft"></img>
           <div className="thirdrow">
             <div className={`job3 ${activeStates[2] ? 'active' : ''}`} onClick={() => handleJobClick(2)}
@@ -52,6 +54,7 @@ const Resume = (props) => {
               </div>
             </div>
           </div>
+          <br></br>
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="fourthrow">
             <div className={`job4 ${activeStates[3] ? 'active' : ''}`} onClick={() => handleJobClick(3)}
@@ -64,6 +67,7 @@ const Resume = (props) => {
               </div>
             </div>
           </div>
+          <br></br>
           <img src="https://i.ibb.co/SdsQyRt/arrowleft.png" alt="arrowleft" className="arrowleft"></img>
           <div className="fifthrow">
             <div className={`job5 ${activeStates[4] ? 'active' : ''}`} onClick={() => handleJobClick(4)}
@@ -76,6 +80,7 @@ const Resume = (props) => {
               </div>
             </div>
           </div>
+          <br></br>
           <img src="https://i.ibb.co/5nWHf4r/Screen-Shot-2023-06-07-at-3-12-11-PM.png" alt="arrow" className="arrowright"></img>
           <div className="sixthrow">
             <div className={`job6 ${activeStates[5] ? 'active' : ''}`} onClick={() => handleJobClick(5)}
