@@ -26,6 +26,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
   
   
@@ -42,6 +43,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .job3 {
@@ -57,6 +59,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .job4 {
@@ -72,6 +75,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .job5 {
@@ -87,6 +91,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
 
   .job6 {
@@ -102,6 +107,7 @@
     border-radius: 50%;
     margin: 25px 25px 25px 25px;
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    z-index: 1;
   }
 
 /* Circle placement on screen  */
@@ -161,6 +167,7 @@
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
+  z-index: 2;
 }
 
 .job2.active {
@@ -168,6 +175,7 @@
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
+  z-index: 2;
 }
 
 .job3.active {
@@ -175,6 +183,7 @@
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
+  z-index: 2;
 }
 
 .job4.active{
@@ -182,6 +191,7 @@
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
+  z-index: 2;
 }
 
 .job5.active {
@@ -189,6 +199,7 @@
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
+  z-index: 2;
 }
 
 .job6.active {
@@ -197,6 +208,7 @@
   margin-top: 10%;
   margin-bottom: 10%;
   margin-right: 30%;
+  z-index: 2;
 }
 
 
