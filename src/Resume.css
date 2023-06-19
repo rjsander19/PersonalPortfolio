@@ -228,21 +228,27 @@
 
   .job1.active {
     margin: 10% auto; 
+    margin-bottom: 10px;
   }
   .job2.active {
     margin: 10% auto; 
+    margin-bottom: 10px;
   }
   .job3.active {
     margin: 10% auto; 
+    margin-bottom: 10px;
   }
   .job4.active {
-    margin: 10% auto; 
+    margin: 10% auto;
+    margin-bottom: 10px; 
   }
   .job5.active {
     margin: 10% auto; 
+    margin-bottom: 10px;
   }
   .job6.active {
     margin: 10% auto; 
+    margin-bottom: 10px;
   }
 }
 
