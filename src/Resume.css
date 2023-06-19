@@ -166,7 +166,7 @@
 /* Effects onlick*/
 
 .job1.active {
-  transform: scale(1.4);
+  transform: scale(1.3);
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
@@ -174,7 +174,7 @@
 }
 
 .job2.active {
-  transform: scale(1.4);
+  transform: scale(1.3);
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
@@ -182,7 +182,7 @@
 }
 
 .job3.active {
-  transform: scale(1.4);
+  transform: scale(1.3);
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
@@ -190,7 +190,7 @@
 }
 
 .job4.active{
-  transform: scale(1.4);
+  transform: scale(1.3);
   align-items: center;
   margin-top: 10%;
   margin-right: 30%;
@@ -198,7 +198,7 @@
 }
 
 .job5.active {
-  transform: scale(1.4);
+  transform: scale(1.3);
   margin-left: 30%;
   align-items: center;
   margin-top: 10%;
@@ -206,7 +206,7 @@
 }
 
 .job6.active {
-  transform: scale(1.4);
+  transform: scale(1.3);
   align-items: center;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -228,27 +228,21 @@
 
   .job1.active {
     margin: 10% auto; 
-    margin-bottom: 10px;
   }
   .job2.active {
     margin: 10% auto; 
-    margin-bottom: 10px;
   }
   .job3.active {
     margin: 10% auto; 
-    margin-bottom: 10px;
   }
   .job4.active {
-    margin: 10% auto;
-    margin-bottom: 10px; 
+    margin: 10% auto; 
   }
   .job5.active {
     margin: 10% auto; 
-    margin-bottom: 10px;
   }
   .job6.active {
     margin: 10% auto; 
-    margin-bottom: 10px;
   }
 }
 
@@ -297,14 +291,13 @@
 .job5.active:hover,
 .job6.active:hover {
   transform: scale(1.4);
-  box-shadow: none; /* Remove the box shadow on hover */
+  box-shadow: none;
 }
 
 /* Style arrows on resume page */
 .arrowright {
   height: 100px;
   width: 100px;
-  margin: 5px;
 }
 
 .arrowleft {
