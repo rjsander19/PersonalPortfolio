@@ -102,6 +102,7 @@ h1 {
         flex-direction: column;
         gap: 2px;
         align-items: center;
+        margin: 4px;
       }
 
     .avatar-image,
