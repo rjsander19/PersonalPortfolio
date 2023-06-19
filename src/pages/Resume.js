@@ -13,7 +13,8 @@ const Resume = (props) => {
 
   return (
     <>
-    <Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing">View resume</Link>
+    <br></br>
+    <Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing"><strong>View resume</strong></Link>
       <div className="show-container">
         <div className="card-row">
           <div className="toprow">
