@@ -45,6 +45,7 @@ a:hover {
   padding: 10px;
   display: none;
   z-index: 1;
+  margin-bottom: 5px;
 }
 
 .projects:hover .project-description {
