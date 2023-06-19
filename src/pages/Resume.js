@@ -13,6 +13,7 @@ const Resume = (props) => {
 
   return (
     <>
+    <Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing">View resume</Link>
       <div className="show-container">
         <div className="card-row">
           <div className="toprow">
@@ -91,7 +92,7 @@ const Resume = (props) => {
       </div>
 
 
-<Link to="https://docs.google.com/document/d/1CclG29IE5DrF9kvJ-8WkTxbu2opoSbUT-gZzfi63uOg/edit?usp=sharing">View resume</Link>
+
 
 <Link to="/projects">
   <div className="h2">View Project Portfolio</div>
