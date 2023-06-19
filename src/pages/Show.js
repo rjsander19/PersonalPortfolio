@@ -88,6 +88,7 @@ const handleCommentSubmit = (e) => {
 
             <div class="card2">
                 <h1>{project.name}</h1>
+                <div className="image-container">
                 <img 
                     className="avatar-image" 
                     src={project.image} 
@@ -108,6 +109,7 @@ const handleCommentSubmit = (e) => {
                     src={project.screenshot3} 
                     alt={project.name} 
                     />
+                </div>
             </div>
 
             <div className="card7">

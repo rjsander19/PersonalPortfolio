@@ -60,7 +60,11 @@ h1 {
     margin-right: 2px;
 }
 
-
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 /* Card2 css title and image used for project */
 .card2 {
