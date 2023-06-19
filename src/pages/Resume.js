@@ -9,7 +9,6 @@ const Resume = (props) => {
     const newActiveStates = [...activeStates];
     newActiveStates[index] = !newActiveStates[index];
     setActiveStates(newActiveStates);
-    window.scrollTo(0, 0);
   };
 
   return (
