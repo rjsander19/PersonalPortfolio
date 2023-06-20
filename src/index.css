@@ -79,7 +79,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .ticker-text {
-    animation-duration: 15s;
+    animation-duration: 18s;
     white-space: nowrap;
     overflow: hidden;
     animation-timing-function: linear;
