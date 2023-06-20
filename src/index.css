@@ -79,7 +79,11 @@ a:hover {
 
 @media (max-width: 768px) {
   .ticker-text {
-    animation-duration: 40s; /* Adjust the duration for mobile devices */
+    animation-duration: 40s;
+    white-space: initial;
+    overflow: auto;
+    animation-timing-function: linear;
+    padding-right: 100%; 
   }
 }
 
