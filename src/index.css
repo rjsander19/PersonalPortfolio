@@ -82,7 +82,7 @@ a:hover {
     animation-duration: 18s;
     white-space: nowrap;
     overflow: hidden;
-    width: auto;
+    width: 200px;
     animation-timing-function: linear;
   }
 }
