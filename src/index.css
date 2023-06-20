@@ -56,9 +56,9 @@ a:hover {
 
 /* Ticker styling */
 .ticker-container {
-  width: 100%;
+  width: auto;
   overflow: hidden;
-  color: #fcefc9;;
+  color: #fcefc9;
 
 }
 
