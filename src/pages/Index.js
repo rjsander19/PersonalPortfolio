@@ -41,7 +41,7 @@ const Index = (props) => {
 
 
 
-  const tickerText = "Experienced with:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   PostSQL,    Google Firebase,    Heroku,    Postman,   JQuery,   Django,   and learning new things everyday!";
+  const tickerText = "Experienced with:   JavaScript,   Node.JS,   React,   CSS,   HTML,   Python,   MongoDB,   PostSQL,    Google Firebase,  Typescript,  Heroku,    Postman,   JQuery,   Django,   and learning new things everyday!";
 
   const renderTicker = () => {
     return (
